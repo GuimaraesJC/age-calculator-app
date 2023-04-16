@@ -1,4 +1,5 @@
 import Input from '../Input';
+import ButtonWithDivider from '../ButtonWithDivider';
 
 import * as S from './styles';
 
@@ -11,6 +12,7 @@ function Container() {
         <Input label="Month" placeholder="MM" />
         <Input label="Year" placeholder="YYYY" />
       </S.InputsContainer>
+      <ButtonWithDivider />
     </S.Container>
   );
 }
