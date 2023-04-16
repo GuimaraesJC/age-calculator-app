@@ -37,6 +37,9 @@ const GlobalStyle = createGlobalStyle`
     width: 100vw;
     height: 100vh;
     background-color: ${({ theme }) => theme.colors.offWhite};
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 

@@ -1,7 +1,9 @@
+import * as S from './styles';
+
 function App() {
 
   return (
-    <main>Teste</main>
+    <S.Container></S.Container>
   );
 }
 
