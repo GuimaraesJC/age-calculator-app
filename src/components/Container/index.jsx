@@ -1,10 +1,10 @@
 import Input from '../Input';
 import ButtonWithDivider from '../ButtonWithDivider';
+import ResultSlice from '../ResultSlice';
 
 import * as S from './styles';
 
 function Container() {
-
   return (
     <S.Container>
       <S.InputsContainer>
@@ -13,6 +13,11 @@ function Container() {
         <Input label="Year" placeholder="YYYY" />
       </S.InputsContainer>
       <ButtonWithDivider />
+      <S.ResultsContainer>
+        <ResultSlice value="20" identifier="years" />
+        <ResultSlice value="30" identifier="months" />
+        <ResultSlice value="40" identifier="days" />
+      </S.ResultsContainer>
     </S.Container>
   );
 }

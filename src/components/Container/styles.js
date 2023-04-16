@@ -12,3 +12,8 @@ export const InputsContainer = styled.header`
   display: flex;
   gap: 2rem;
 `;
+
+export const ResultsContainer = styled.section`
+  display: flex;
+  flex-direction: column;
+`;
