@@ -9,6 +9,7 @@ export const Label = styled.label`
   text-transform: uppercase;
   display: block;
   color: ${({ theme }) => theme.colors.smokeyGrey};
+  font-size: 0.875rem;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.25rem;
