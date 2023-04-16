@@ -7,3 +7,8 @@ export const Container = styled.div`
   border-radius: 1.5rem 1.5rem 12.5rem 1.5rem;
   padding: 3.5rem;
 `;
+
+export const InputsContainer = styled.header`
+  display: flex;
+  gap: 2rem;
+`;
