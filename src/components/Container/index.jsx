@@ -1,10 +1,10 @@
 import * as S from './styles';
 
-function App() {
+function Container() {
 
   return (
     <S.Container></S.Container>
   );
 }
 
-export default App;
+export default Container;
