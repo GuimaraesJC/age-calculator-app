@@ -13,6 +13,10 @@ export const Label = styled.label`
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.25rem;
+
+  &.error {
+    color: ${({ theme }) => theme.colors.red};
+  }
 `;
 
 export const Input = styled.input`
@@ -22,10 +26,14 @@ export const Input = styled.input`
   border-radius: 0.5rem;
   font-size: 2rem;
   padding: 0.75rem 1.5rem;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0;
   letter-spacing: 0.01rem;
   color: ${({ theme }) => theme.colors.offBlack};
   outline: 0;
+
+  &.error {
+    border-color: ${({ theme }) => theme.colors.red};
+  }
 
   &:focus {
     border-color: ${({ theme }) => theme.colors.purple};
@@ -34,4 +42,9 @@ export const Input = styled.input`
   &::placeholder {
     opacity: 0.5;
   }
+`;
+
+export const ErrorMessage = styled.span`
+  color: ${({ theme }) => theme.colors.red};
+  font-size: 0.875rem;
 `;

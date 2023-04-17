@@ -8,9 +8,9 @@ function Container() {
   return (
     <S.Container>
       <S.InputsContainer>
-        <Input label="Day" placeholder="DD" />
-        <Input label="Month" placeholder="MM" />
-        <Input label="Year" placeholder="YYYY" />
+        <Input label="Day" placeholder="DD" errorMessage="Must be a valid day" />
+        <Input label="Month" placeholder="MM" errorMessage="Must be a valid month" />
+        <Input label="Year" placeholder="YYYY" errorMessage="Must be in the past" />
       </S.InputsContainer>
       <ButtonWithDivider />
       <S.ResultsContainer>
